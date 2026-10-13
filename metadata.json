@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix FairForm AI Bridge",
+  "description": "An expert analyst for integrating your existing FairForm AI frontend with FastAPI, PostgreSQL, and Redis backend infrastructure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

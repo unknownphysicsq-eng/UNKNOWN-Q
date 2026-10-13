@@ -1,0 +1,519 @@
+{
+  "students": [
+    {
+      "id": "STU-2026-001",
+      "name": "Alex Morgan Updated 4601",
+      "email": "alex.morgan@fairform.edu",
+      "course": "Advanced Software Engineering",
+      "passwordPlain": "Password@123",
+      "passwordHash": "pbkdf2_sha256$3c74753f7943a41e93e11c7d1e2751d68d85bfded7dc9ee7c289cfdd40c37151",
+      "role": "student",
+      "isActive": true,
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "lastActiveAt": 1791872694603
+    },
+    {
+      "id": "STU-2026-002",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@fairform.edu",
+      "course": "Artificial Intelligence and Data Science (AI & DS)",
+      "passwordPlain": "Password@123",
+      "passwordHash": "pbkdf2_sha256$3c74753f7943a41e93e11c7d1e2751d68d85bfded7dc9ee7c289cfdd40c37151",
+      "role": "student",
+      "isActive": true,
+      "createdAt": "2026-01-16T09:30:00.000Z",
+      "lastActiveAt": 1791872694500
+    },
+    {
+      "id": "ADMIN-001",
+      "name": "Administrator Dean",
+      "email": "dean.admin@fairform.edu",
+      "course": "Academic Administration",
+      "passwordPlain": "Admin@Secure2026",
+      "passwordHash": "pbkdf2_sha256$4a1c90807f29c050f6d35d21f458f5568e7f531e12554b48b37317d7954d3c13",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "lastActiveAt": 1791872694444
+    }
+  ],
+  "submissions": [
+    {
+      "id": 1,
+      "reference": "FF-EXAM-MV6AQJUI-21F8E2",
+      "studentId": "STU-2026-001",
+      "serviceKey": "exam",
+      "service": "Exam Registration",
+      "date": "10/13/2026, 6:24:54 AM",
+      "createdAtIso": "2026-10-13T06:24:54.522Z",
+      "details": {
+        "fullName": "Alex Morgan",
+        "studentId": "STU-2026-001",
+        "department": "Computer Science and Engineering (CSE)",
+        "examType": "Regular Semester Exam",
+        "examSemester": "Semester 6",
+        "subjectCodes": "CS601, CS602",
+        "declaration": "true"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "eventType": "LOGIN_SUCCESS",
+      "studentId": "STU-2026-001",
+      "createdAt": 1791869394300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 2,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791869574300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 3,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791869694300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 4,
+      "eventType": "APPLICATION_SUBMISSION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791869814300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 5,
+      "eventType": "LOGIN_SUCCESS",
+      "studentId": "STU-2026-002",
+      "createdAt": 1791869994300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 6,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-2026-002",
+      "serviceCode": "scholarship",
+      "createdAt": 1791870174300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 7,
+      "eventType": "RATE_LIMIT_REJECTION",
+      "studentId": "STU-2026-002",
+      "serviceCode": "scholarship",
+      "createdAt": 1791870234300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 8,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-2026-002",
+      "serviceCode": "scholarship",
+      "createdAt": 1791870414300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 9,
+      "eventType": "APPLICATION_SUBMISSION",
+      "studentId": "STU-2026-002",
+      "serviceCode": "scholarship",
+      "createdAt": 1791870594300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 10,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-2026-001",
+      "serviceCode": "course",
+      "createdAt": 1791871014300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 11,
+      "eventType": "RATE_LIMIT_REJECTION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "course",
+      "createdAt": 1791871194300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 12,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "course",
+      "createdAt": 1791871374300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 13,
+      "eventType": "APPLICATION_SUBMISSION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "course",
+      "createdAt": 1791871494300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 14,
+      "eventType": "LOGIN_SUCCESS",
+      "studentId": "ADMIN-001",
+      "createdAt": 1791871794300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 15,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-2026-002",
+      "serviceCode": "course",
+      "createdAt": 1791872094300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 16,
+      "eventType": "RATE_LIMIT_REJECTION",
+      "studentId": "UNKNOWN",
+      "createdAt": 1791872394300,
+      "payload": {
+        "seeded": true
+      }
+    },
+    {
+      "id": 17,
+      "eventType": "LOGIN_FAILED",
+      "studentId": "STU-UNKNOWN-999",
+      "createdAt": 1791872694331
+    },
+    {
+      "id": 18,
+      "eventType": "LOGIN_FAILED",
+      "studentId": "STU-2026-001",
+      "createdAt": 1791872694373
+    },
+    {
+      "id": 19,
+      "eventType": "LOGIN_SUCCESS",
+      "studentId": "STU-2026-001",
+      "createdAt": 1791872694379
+    },
+    {
+      "id": 20,
+      "eventType": "LOGIN_SUCCESS",
+      "studentId": "STU-2026-002",
+      "createdAt": 1791872694386
+    },
+    {
+      "id": 21,
+      "eventType": "LOGIN_SUCCESS",
+      "studentId": "ADMIN-001",
+      "createdAt": 1791872694390
+    },
+    {
+      "id": 22,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-QUEUE-A",
+      "serviceCode": "course",
+      "createdAt": 1791872694459,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 23,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-QUEUE-A",
+      "serviceCode": "course",
+      "createdAt": 1791872694459,
+      "payload": {
+        "token": "PASS-COURSE-STU-QUEUE-A-MV6AQJSR-5D147AB0"
+      }
+    },
+    {
+      "id": 24,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-QUEUE-B",
+      "serviceCode": "course",
+      "createdAt": 1791872694463,
+      "payload": {
+        "status": "waiting",
+        "position": 2
+      }
+    },
+    {
+      "id": 25,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-QUEUE-C",
+      "serviceCode": "course",
+      "createdAt": 1791872694468,
+      "payload": {
+        "status": "waiting",
+        "position": 3
+      }
+    },
+    {
+      "id": 26,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-QUEUE-B",
+      "serviceCode": "course",
+      "createdAt": 1791872694472,
+      "payload": {
+        "status": "waiting",
+        "position": 2
+      }
+    },
+    {
+      "id": 27,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791872694486,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 28,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791872694486,
+      "payload": {
+        "token": "PASS-EXAM-STU-2026-001-MV6AQJTI-AEDF7DE4"
+      }
+    },
+    {
+      "id": 29,
+      "eventType": "APPLICATION_SUBMISSION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791872694522,
+      "payload": {
+        "reference": "FF-EXAM-MV6AQJUI-21F8E2"
+      }
+    },
+    {
+      "id": 30,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791872694528,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 31,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-2026-001",
+      "serviceCode": "exam",
+      "createdAt": 1791872694528,
+      "payload": {
+        "token": "PASS-EXAM-STU-2026-001-MV6AQJUO-AA2EFE1A"
+      }
+    },
+    {
+      "id": 32,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694539,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 33,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694540,
+      "payload": {
+        "token": "PASS-COURSE-STU-RATETEST-1791872694536-MV6AQJUZ-A4DD3519"
+      }
+    },
+    {
+      "id": 34,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694545,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 35,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694545,
+      "payload": {
+        "token": "PASS-COURSE-STU-RATETEST-1791872694536-MV6AQJUZ-A4DD3519"
+      }
+    },
+    {
+      "id": 36,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694557,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 37,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694557,
+      "payload": {
+        "token": "PASS-COURSE-STU-RATETEST-1791872694536-MV6AQJUZ-A4DD3519"
+      }
+    },
+    {
+      "id": 38,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694560,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 39,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694560,
+      "payload": {
+        "token": "PASS-COURSE-STU-RATETEST-1791872694536-MV6AQJUZ-A4DD3519"
+      }
+    },
+    {
+      "id": 40,
+      "eventType": "QUEUE_JOIN",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694564,
+      "payload": {
+        "status": "admitted",
+        "position": 1
+      }
+    },
+    {
+      "id": 41,
+      "eventType": "QUEUE_ADMISSION",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694565,
+      "payload": {
+        "token": "PASS-COURSE-STU-RATETEST-1791872694536-MV6AQJUZ-A4DD3519"
+      }
+    },
+    {
+      "id": 42,
+      "eventType": "RATE_LIMIT_REJECTION",
+      "studentId": "STU-RATETEST-1791872694536",
+      "serviceCode": "course",
+      "createdAt": 1791872694568,
+      "payload": {
+        "reason": "queue_join_rate_limit"
+      }
+    },
+    {
+      "id": 43,
+      "eventType": "LOGIN_FAILED",
+      "studentId": "STU-FAILLOGIN-1791872694569",
+      "createdAt": 1791872694572
+    },
+    {
+      "id": 44,
+      "eventType": "LOGIN_FAILED",
+      "studentId": "STU-FAILLOGIN-1791872694569",
+      "createdAt": 1791872694575
+    },
+    {
+      "id": 45,
+      "eventType": "LOGIN_FAILED",
+      "studentId": "STU-FAILLOGIN-1791872694569",
+      "createdAt": 1791872694578
+    },
+    {
+      "id": 46,
+      "eventType": "LOGIN_FAILED",
+      "studentId": "STU-FAILLOGIN-1791872694569",
+      "createdAt": 1791872694582
+    },
+    {
+      "id": 47,
+      "eventType": "LOGIN_FAILED",
+      "studentId": "STU-FAILLOGIN-1791872694569",
+      "createdAt": 1791872694586
+    },
+    {
+      "id": 48,
+      "eventType": "RATE_LIMIT_REJECTION",
+      "studentId": "STU-FAILLOGIN-1791872694569",
+      "createdAt": 1791872694590,
+      "payload": {
+        "reason": "login_rate_limit"
+      }
+    },
+    {
+      "id": 49,
+      "eventType": "PROFILE_UPDATED",
+      "studentId": "STU-2026-001",
+      "createdAt": 1791872694603,
+      "payload": {
+        "name": "Alex Morgan Updated 4601",
+        "course": "Advanced Software Engineering",
+        "email": "alex.morgan@fairform.edu"
+      }
+    }
+  ]
+}
